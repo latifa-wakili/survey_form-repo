@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <h1 id="title">survey-form</h1> 
+  <p>it is a survey-form that made by using html and css</p>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+   <div class="container">
+   <form id="survey-form">
+      <div class="labels">
+      <label >name</label><input id="name" type="text" placeholder="Enter your name"  required>
+      <label>email</label><input id="email" type="email" placeholder="Enter your email"  required>
+      <label>number</label><input id="number-label" type="number" placeholder="Age"  
+      required></div>
+
+
+      <select id="dropdown">
+         <option></option>
+         <option>web development </option>
+         <option>ux/ui</option>
+         <option>digital markiting </option>
+      </select>
+
+      <div class="radio"><label>
+         <input
+           name="radio-botton"
+           value="definitely"
+           type="radio"
+           class="radio"
+           checked
+         />Definitely</label>
+       <label>
+         <label>
+            <input 
+            name="radio-b"
+            value="maybe"
+            type="radio"
+            class="radio"
+            >
+         </label>
+         <label>
+            <input
+            name="radio_b"
+            value="sure"
+            type="radio"
+            class="radio"
+            >
+         </label>
+       </div>
+
+
+<div class="checkbox">
+      <label ><input
+              name="checkbox1"
+              value="multiple"
+              type="checkbox"
+              class="checkbox"
+            >Front-end Projects</label>
+      <label>
+         <input
+          name="checkbox2"
+         value="back-end"
+         type="checkbox"
+         class="checkbox"
+         >back-end</label>
+         <label>
+            <input
+            name="checkbox3"
+            value="ux/ui"
+            type="checkbox"
+            class="checkbox"
+            >ux/ui</label></div>
+     
+
+
+         <div class="coment"><p>Any comments or suggestions?</p>
+         <textarea
+           id="comments"
+           class="textarea"
+           name="comment"
+           placeholder="Enter your comment here..."
+         ></textarea></div>
+          <hr>
+         <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+
+   </form>
+</div>
+</body>
+</html>
