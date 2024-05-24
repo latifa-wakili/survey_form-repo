@@ -1,17 +1,16 @@
 body {
-  background-color: rgb(245, 139, 123);
-  background-image: url(OIP\ \(2\).jpeg);
+  background-image: url(OIP.jpeg) ;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 0%;
+  margin-left: 5%;
   max-width: fit-content;
   max-height: fit-content;
-
 }
+
 h1 {
   text-align: center;
 }
+
 .labels {
   margin-left: 10px;
 }
-
