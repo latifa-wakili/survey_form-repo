@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(241, 236, 230);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: black; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  padding: 15px;
+}
+
+.labels {
+  margin-left: 10px;
+}
+
+#survey-form {
+  background-color: rgb(228, 224, 224);
+  padding: 20px;
+  width: 300px;
+  border-style: groove;
+  box-shadow: 4px 1px #aaa;
+}
+
+form input {
+  /* margin: 10px 20px; */
+  display: block;
+}
