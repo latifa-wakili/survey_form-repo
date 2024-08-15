@@ -14,9 +14,8 @@ html
 ```
 
 ## Demo 📸
-![Demo]
 https://latifa-wakili.github.io/survey_form-repo/
-(s_form.jpg)
+![Demo](s_form.jpg)
 
 ## Technologies Used 🛠️
 
